@@ -1,7 +1,8 @@
 h1 {
-  color: #575F7D;
+  color: #565252e8;
   font-size: 32px;
   font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
@@ -10,22 +11,24 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  background: #F7F9FC;
-
   font-family: 'Lora', serif;
   font-size: 25px;
   font-weight: lighter;
 }
 
 h2 {
-  color: #bff705;
-  font-size: 25px;
-  font-weight: lighter;
-  font-weight: 500;
-  font-family: Helvetica, sans-serif;
+  background-image: linear-gradient(#7dc2f0, #2980b9);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #0aff2b;
+  font-size: 21px;
+  padding: 12px 15px 12px 15px;
+  margin: 30px 200px;
+
 }
 
 a {
@@ -39,6 +42,7 @@ a {
 .img-circle {
   border: 1px solid rgb(123, 255, 0);
     border-radius: 50%;
+    border-width: thick;
 
 }
 
@@ -52,16 +56,9 @@ a {
   padding: 40px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   border-radius: 4px;
-  margin: 20px 0px;
+  margin: 20px 50px;
   text-align: center;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(175,175,230,1) 35%, rgba(0,212,255,1) 100%)
-
-}
-
-
-div {
-  display: block;
+  background: linear-gradient(to right,#0052d4, #65c7f7, #9cecfb );
 }
 
 .button_blue {
@@ -69,6 +66,16 @@ div {
     justify-content: center;
     gap: 20px;
 
+}
+
+.card-blue {
+
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 30px 100px;
+  text-align: center;
+  background: linear-gradient(to right,#0052d4, #65c7f7, #9cecfb );
 }
 
 .list-inline {
@@ -106,6 +113,10 @@ ul {
   .card-white {
     width: 700px;
   }
+
+  .card-blue {
+    width: 700px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -113,11 +124,19 @@ ul {
   .card-white {
     width: 500px;
   }
+
+  .card-blue {
+    width: 500px;
+  }
 }
 
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .card-white {
+    width: 300px;
+  }
+
+  .card-blue {
     width: 300px;
   }
 }
