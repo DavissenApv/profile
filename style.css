@@ -1,8 +1,24 @@
+.vl {
+  border-left: 6px solid rgb(175, 151, 103);
+  height: 600px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.vm {
+  border-left: 6px solid rgb(175, 151, 103);
+  height: 600px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 1430px;
+}
+
 h1 {
-  color: #565252e8;
-  font-size: 32px;
+  color: #ffffff;
+  font-size: 40px;
   font-weight: 900;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'DynaPuff', cursive;
 }
 
 p {
@@ -11,7 +27,7 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'DynaPuff', cursive;
 }
 
 body {
