@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('card.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: 'Motley';
+  src: url(fonts/MotleyForcesRegular-w1rZ3.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Muroslant';
+  src: url(fonts/Muroslant.otf)
+}
+body {
+  background-color: #EFEFEF;
+  font-family: 'Open Sans', sans-serif;
+  /* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+
+}
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+
+
+a{
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 30px;
+  color: #646AFF;
+}
+a:hover {
+  opacity: 1;
+}

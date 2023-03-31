@@ -1,0 +1,73 @@
+.card-gradient{
+height: 100px;
+position: relative;
+border-radius: 15px;
+
+}
+
+.card{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 15px;
+
+}
+
+.card-infos {
+  padding-left: 10px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-weight: lighter;
+  padding-left: 15px;
+}
+
+.card h1 {
+  font-family: 'Muroslant';
+  font-size: 50px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 115px;
+  width: 120px;
+  position: absolute;
+  left: 25px;
+  top: 50px;
+}
+
+.card-skills{
+  display: flex;
+
+
+
+}
+.card-skills p {
+  border: solid 0.1px grey;
+  width: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #5562FF;
+  color: white;
+
+}
+
+.card-email {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.card-email p {
+  margin-left: 10px;
+}
+
+.socials {
+color: #646AFF;
+width: 150px;
+display: flex;
+justify-content: space-evenly;
+}
